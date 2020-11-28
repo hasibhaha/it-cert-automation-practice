@@ -22,3 +22,7 @@ def validate_user(username, minlen):
 
 
 
+print("True") # True
+print("False") # Currently True, should be False
+print(validate_user("red_quinoa", 4)) # True
+print("False") # Currently True, should be False
